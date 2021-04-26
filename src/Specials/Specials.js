@@ -8,7 +8,7 @@ function Specials() {
     <Container className={'mt-3'}fluid >
     <Row>
         <Col>
-        <div className={'mt-5'} style={{textAlign:'center', fontSize:'35px'}}>We are pleased to offer the following specials</div>
+        <div className={'mt-5'} style={{fontSize:'45px', textAlign:'center', fontFamily:'Antonio'}}>We are pleased to offer the following specials</div>
         </Col>
     </Row>
 

@@ -14,7 +14,7 @@ function HomeInfo() {
     <Row className={'mb-3 mt-3'}>
     <Col sm={6}>
    <Card border='0'>
-       <Card.Title> What is Lorem Ipsum? center this </Card.Title>
+       <Card.Title style={{fontSize:'30px', textAlign:'center', fontFamily:'Antonio'}}> What is Lorem Ipsum?</Card.Title>
        <Card.Body>
        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
@@ -32,7 +32,7 @@ function HomeInfo() {
    </Row>
  
    <Card  border='0' >
-                  <Card.Title style={{fontSize:'35px', textAlign:'center'}}>More Specialty Services</Card.Title>
+                  <Card.Title style={{fontSize:'45px', textAlign:'center', fontFamily:'Antonio'}}>More Specialty Services</Card.Title>
      </Card>
 
    <Row>

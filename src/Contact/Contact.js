@@ -13,7 +13,7 @@ function Contact () {
     </Card.ImgOverlay>
                
     </Card>
-    <div style={{textAlign:'center', fontSize:'40px'}}>Company Name</div>
+    <div style={{fontSize:'45px', textAlign:'center', fontFamily:'Antonio'}}>Company Name</div>
     <Row className={'mb-3 mt-3'}>
       <Col xs={12}>
       <Card style={{textAlign:'center'}} border='0'>
@@ -37,7 +37,7 @@ function Contact () {
     <Row className={'mb-3 mt-3'}>
       <Col xs={12}>
       <Card border='0'>
-      <Card.Title style={{textAlign:'center'}}>Another About Us</Card.Title>
+      <Card.Title style={{fontSize:'45px', textAlign:'center', fontFamily:'Antonio'}}>Another About Us</Card.Title>
        <Card.Body>
        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
@@ -47,7 +47,7 @@ function Contact () {
    </Card>
       </Col>
     </Row>
-    <div style={{textAlign:'center', fontSize:'40px'}}>Fancy We Guarantee It</div>
+    <div style={{fontSize:'45px', textAlign:'center', fontFamily:'Antonio'}}>We Guarantee It</div>
   </Container>
 
   )

@@ -25,7 +25,7 @@ function HomeCallToAction ({requestService, setRequestService}) {
                 </Card.ImgOverlay>
                 </Card>
                 <Card style={{textAlign:'center'}} border='0'>
-                  <Card.Title style={{fontSize:'35px'}}>Your Satifaction Guarenteed!</Card.Title>
+                  <Card.Title style={{fontSize:'45px', textAlign:'center', fontFamily:'Antonio'}}>Your Satifaction Guarenteed!</Card.Title>
                 </Card>
                 </Container>
   )

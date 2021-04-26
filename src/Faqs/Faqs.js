@@ -37,7 +37,7 @@ function Faqs() {
     </Col>
 
 
-<Col md={4} style={{padding:'0'}}>
+<Col md={4}>
     <Card className={'text-center box-shadow mb-3'} bg='primary'>
     <Card.Header style={{color:'white'}}> Other Services </Card.Header>
     <ListGroup variant='flush'>
