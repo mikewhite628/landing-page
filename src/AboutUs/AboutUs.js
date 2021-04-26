@@ -5,15 +5,19 @@ import { Carousel, Button, Col, Jumbotron, Card, Row, Container} from 'react-boo
 function AboutUs () {
   return (
   <Container fluid style={{paddingLeft:'0', paddingRight:'0'}}>
-    <Jumbotron className={'mt-5'} style={{backgroundImage:'url(https://picsum.photos/900/500)', backgroundSize:'cover', color:'white', height: '60vh'}}>
+   <Card style={{color:'#fff'}} className={'text-center mt-5'}>
+   <div className={'transparent-cover'}></div>
+   <Card.Img src={'https://picsum.photos/1300/600'} alt='card image' />
+   <Card.ImgOverlay className={'mt-3 ontop-transparent'}>
                 <h3>First slide label</h3>
                 <p>Premium blah blah blah here about how good we are</p>
+    </Card.ImgOverlay>
                
-    </Jumbotron>
-    <Row className={'mb-3'}>
-      <Col xs={9}>
-      <Card>
-       <Card.Title> What is Lorem Ipsum? center this </Card.Title>
+    </Card>
+    <Row className={'mb-3 mt-3'}>
+      <Col xs={12}>
+      <Card border='0'>
+       <Card.Title style={{textAlign:'center', fontSize:'40px'}}> What is Lorem Ipsum? center this </Card.Title>
        <Card.Body>
        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
@@ -22,16 +26,11 @@ function AboutUs () {
        </Card.Body>
    </Card>
       </Col>
-      <Col xs={3}>
-      <Card>
-       <Card.Img src='https://picsum.photos/200/100'/>
-   </Card>
-      </Col>
     </Row>
-    <div style={{textAlign:'center'}}>Excellent Service</div>
+    <div style={{textAlign:'center', fontSize:'40px'}}>Excellent Service</div>
     <Row className={'mb-3 mt-3'}>
       <Col xs={9}>
-      <Card>
+      <Card border='0'>
        <Card.Body>
        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
@@ -42,14 +41,14 @@ function AboutUs () {
       </Col>
       <Col xs={3}>
       <Card>
-       <Card.Img src='https://picsum.photos/200/100'/>
+       <Card.Img src='https://picsum.photos/300/300' className={'box-shadow'} />
    </Card>
       </Col>
     </Row>
-    <div style={{textAlign:'center'}}>Our Mission</div>
+    <div style={{textAlign:'center', fontSize:'40px'}}>Our Mission</div>
     <Row className={'mb-3 mt-3'}>
       <Col xs={9}>
-      <Card>
+      <Card border='0'>
        <Card.Body>
        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
@@ -60,11 +59,11 @@ function AboutUs () {
       </Col>
       <Col xs={3}>
       <Card>
-       <Card.Img src='https://picsum.photos/200/100'/>
+       <Card.Img src='https://picsum.photos/300/301' className={'box-shadow'} />
    </Card>
       </Col>
     </Row>
-    <div style={{textAlign:'center'}}>Fancy We Guarantee It</div>
+    <div style={{textAlign:'center', fontSize:'40px'}}>Fancy We Guarantee It</div>
   </Container>
 
   )

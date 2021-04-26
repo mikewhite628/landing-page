@@ -7,7 +7,7 @@ import widefloor from '../images/widefloor.jpg'
 
 function HomeCallToAction ({requestService, setRequestService}) {
   return (
-    <Container fluid style={{paddingLeft:'0', paddingRight:'0'}}>
+    <Container fluid style={{paddingLeft:'0', paddingRight:'0'}} className={'box-shadow'}>
    <Card style={{color:'#fff'}} className={'text-center'}>
    <div className={'transparent-cover'}></div>
                 <Card.Img src={widefloor} alt='card image' className={'img-fluid'} style={{height:'300px'}}/>

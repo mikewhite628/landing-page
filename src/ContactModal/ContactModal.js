@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { Col, Row, Button, Modal, Form} from 'react-bootstrap'
-
-
+import logo from '../../src/images/Fortbend2.png'
 
 function ContactModal({requestService, setRequestService, ...restProps }) {
 
@@ -15,8 +14,8 @@ function ContactModal({requestService, setRequestService, ...restProps }) {
     animation={false}
     >
         <Modal.Header closeButton>
-            <Modal.Title id='contained-modal-title-vcenter'>
-            <img src='https://picsum.photos/200/100' />  
+            <Modal.Title id='contained-modal-title-vcenter' style={{textAlign:'center'}}>
+            <img src={logo} />  
             </Modal.Title>
         </Modal.Header>
         <Modal.Body>

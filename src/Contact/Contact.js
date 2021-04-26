@@ -5,27 +5,24 @@ import { Carousel, Button, Col, Jumbotron, Card, Row, Container} from 'react-boo
 function Contact () {
   return (
   <Container fluid style={{paddingLeft:'0', paddingRight:'0'}}>
-    <Jumbotron className={'mt-5'} style={{backgroundImage:'url(https://picsum.photos/900/500)', backgroundSize:'cover', color:'white', height: '60vh'}}>
-                <h3>Contact us blah</h3>
-                <p>Premium blah blah blah here about how good we are</p>
+    <Card style={{color:'#fff'}} className={'text-center mt-5'}>
+   <div className={'transparent-cover'}></div>
+   <Card.Img src={'https://picsum.photos/1300/601'} alt='card image' />
+   <Card.ImgOverlay className={'mt-3 ontop-transparent'}>
+                <h3>Contact Us</h3>
+    </Card.ImgOverlay>
                
-    </Jumbotron>
-    <div style={{textAlign:'center'}}>Company Name</div>
-    <Row className={'mb-3'}>
-      <Col xs={9}>
-      <Card>
-       <Card.Title> Location</Card.Title>
+    </Card>
+    <div style={{textAlign:'center', fontSize:'40px'}}>Company Name</div>
+    <Row className={'mb-3 mt-3'}>
+      <Col xs={12}>
+      <Card style={{textAlign:'center'}} border='0'>
+       <Card.Title > Location</Card.Title>
        <Card.Body>
        Phone Number
        Servicing area
        </Card.Body>
-   </Card>
-      </Col>
-    </Row>
-    
-    <Row className={'mb-3 mt-3'}>
-      <Col xs={9}>
-      <Card>
+
       <Card.Title>Hours of Operation</Card.Title>
        <Card.Body>
        Schedule
@@ -38,9 +35,9 @@ function Contact () {
     </Row>
 
     <Row className={'mb-3 mt-3'}>
-      <Col xs={9}>
-      <Card>
-      <Card.Title>Another About Us</Card.Title>
+      <Col xs={12}>
+      <Card border='0'>
+      <Card.Title style={{textAlign:'center'}}>Another About Us</Card.Title>
        <Card.Body>
        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
@@ -50,7 +47,7 @@ function Contact () {
    </Card>
       </Col>
     </Row>
-    <div style={{textAlign:'center'}}>Fancy We Guarantee It</div>
+    <div style={{textAlign:'center', fontSize:'40px'}}>Fancy We Guarantee It</div>
   </Container>
 
   )

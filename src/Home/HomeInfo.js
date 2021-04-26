@@ -26,7 +26,7 @@ function HomeInfo() {
 
     <Col sm={6} >
    <Card>
-       <Card.Img src={kids}/>
+       <Card.Img src={kids} className={'box-shadow'}/>
    </Card>
    </Col>
    </Row>
@@ -59,9 +59,9 @@ function HomeInfo() {
         </Card>
     </Col>
 
-    <Col md={4} style={{padding:'0'}}>
-        <Card className={'text-center'}>
-        <Card.Header> Other Services </Card.Header>
+    <Col md={4}>
+        <Card className={'text-center box-shadow mb-3'} bg='primary' >
+        <Card.Header style={{color: 'white'}}> Other Services </Card.Header>
         <ListGroup variant='flush'>
        <ListGroup.Item className={'mouse-over-effect'}>Service 1</ListGroup.Item>  
        <ListGroup.Item className={'mouse-over-effect'}>Service 2</ListGroup.Item>  

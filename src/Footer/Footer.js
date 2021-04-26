@@ -7,19 +7,19 @@ import fb from '../images/fb.svg'
 
 function Footer() {
   return (
-    <Container fluid style={{backgroundColor:'#212529', color:'#fff'}}>
+    <Container fluid style={{backgroundColor:'#d7d7d7', color:'#fff'}} >
     <Row>
-     <Col className={'mt-3'}><img src={logo}/></Col>
+     <Col className={'mt-3'}><img src={logo} className={'box-shadow'}/></Col>
      <Col className={'mt-3'} style={{paddingLeft:'0px', paddingRight:'0px'}}>
-        <Card.Img src={fb} style={{height:'80px'}}/>     
+        <Card.Img src={fb} style={{height:'80px', width:'80px'}} className={'box-shadow'}/>     
     </Col> 
     <Col className={'mt-3'}>
-    <Card.Img src={scotchgard} style={{height:'80px'}} />
+    <Card.Img src={scotchgard} style={{height:'80px', width:'80px'}} className={'box-shadow'}/>
     </Col>
     </Row>
     <Row className={'mt-3 mb-5'}>
         <Col>
-            <Card className={'text-center'} style={{color:'#212529'}}>
+            <Card className={'text-center box-shadow'} style={{color:'#212529'}}>
                 <Card.Title>
                     Location
                 </Card.Title>
@@ -27,22 +27,17 @@ function Footer() {
                     Proudly serving xxxx and the greater xxxx area!
                 </Card.Body>
             </Card>
-            <Card className={'text-center mt-3'} style={{color:'#212529'}}>
+            <Card className={'text-center mt-3 box-shadow'} style={{color:'#212529'}}>
                 <Card.Body>
                    Map of service area here!!
                 </Card.Body>
             </Card>
         </Col>
         <Col xs={5}>
-            <Card className={'text-center'} style={{color:'#212529'}}>
+            <Card className={'text-center box-shadow'} style={{color:'#212529'}}>
                 <Card.Title> Schedule </Card.Title>
-                <ListGroup.Item>Mon: 8am - 8pm</ListGroup.Item>
-                <ListGroup.Item>Tues: 8am - 8pm</ListGroup.Item>
-                <ListGroup.Item>Weds: 8am - 8pm</ListGroup.Item>
-                <ListGroup.Item>Thurs: 8am - 8pm</ListGroup.Item>
-                <ListGroup.Item>Fri: 8am - 8pm</ListGroup.Item>
-                <ListGroup.Item>Sat: 8am - 8pm</ListGroup.Item>
-                <ListGroup.Item>Sun: 8am - 8pm</ListGroup.Item>
+                <ListGroup.Item>Monday - Sunday</ListGroup.Item>
+                <ListGroup.Item>8am - 8pm</ListGroup.Item>
             </Card>
         
         </Col>

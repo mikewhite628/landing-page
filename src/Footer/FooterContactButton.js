@@ -12,7 +12,7 @@ function FooterContactButton({setRequestService}) {
     <Row className={'justify-content-md-center'}>
     <Col xs lg='2'>
     {
-    width > 634 ? <Button onClick={() => setRequestService(true)} className={'fixed-bottom mb-1'}> Request Service </Button> 
+    width > 634 ? <Button onClick={() => setRequestService(true)} className={'fixed-bottom mb-1 box-shadow'}> Request Service </Button> 
     : 
     <div fluid className={'fixed-bottom'} style={{backgroundColor: '#212529', height:'12vh', width:'100vw', color:'#fff', paddingLeft:'15px', paddingRight:'30px', fontSize:'30px'}}> 
     <div style={{textAlign:'center', width:'100%'}}>Phone Icon | 555-555-5555</div>

@@ -6,7 +6,7 @@ import review2 from '../images/review2.png'
 
 function HomeReviews () {
   return (
-    <Carousel fade>    
+    <Carousel fade >    
         
         <Carousel.Item>
         <img src={review2} className='d-block w-100' />
