@@ -8,7 +8,7 @@ function Faqs() {
     <Container className={'mt-3'}fluid >
     <Row>
         <Col>
-        <div className={'mt-5'} style={{textAlign:'center', fontSize:'35px'}}>Frequently Asked Questions</div>
+        <div className={'mt-5'} style={{fontSize:'40px', textAlign:'center', fontFamily:'Antonio'}}>Frequently Asked Questions</div>
         </Col>
     </Row>
 
@@ -41,13 +41,10 @@ function Faqs() {
     <Card className={'text-center box-shadow mb-3'} bg='primary'>
     <Card.Header style={{color:'white'}}> Other Services </Card.Header>
     <ListGroup variant='flush'>
-   <ListGroup.Item>Service 1</ListGroup.Item>  
-   <ListGroup.Item>Service 2</ListGroup.Item>  
-   <ListGroup.Item>Service 3</ListGroup.Item>  
-   <ListGroup.Item>Service 4</ListGroup.Item>  
-   <ListGroup.Item>Service 5</ListGroup.Item>  
-   <ListGroup.Item>Service 6</ListGroup.Item>  
-   <ListGroup.Item>Service 7</ListGroup.Item>  
+   <ListGroup.Item className={'mouse-over-effect'}>Service 1</ListGroup.Item>  
+   <ListGroup.Item className={'mouse-over-effect'}>Service 2</ListGroup.Item>  
+   <ListGroup.Item className={'mouse-over-effect'}>Service 3</ListGroup.Item>  
+   <ListGroup.Item className={'mouse-over-effect'}>Service 4</ListGroup.Item>  
    </ListGroup>
     </Card>
 </Col>
