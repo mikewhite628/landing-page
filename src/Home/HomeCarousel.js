@@ -21,7 +21,7 @@ function HomeCarousel () {
 
                 />
             <Carousel.Caption>
-                <h3>First slide label</h3>
+                <h3 style={{fontSize:'80px', textAlign:'center', fontFamily:'Antonio'}}>First slide label</h3>
                 <p>Premium blah blah blah here about how good we are</p>
             </Carousel.Caption>
             
@@ -35,7 +35,7 @@ function HomeCarousel () {
                 alt='First Slide'
                 />
             <Carousel.Caption>
-                <h3>Second slide label</h3>
+                <h3 style={{fontSize:'80px', textAlign:'center', fontFamily:'Antonio'}}>Second slide label</h3>
                 <p>Premium blah blah blah here about how good we are</p>
             </Carousel.Caption>
             
@@ -49,7 +49,7 @@ function HomeCarousel () {
                 alt='First Slide'
                 />
             <Carousel.Caption>
-                <h3>Third slide label</h3>
+                <h3 style={{fontSize:'80px', textAlign:'center', fontFamily:'Antonio'}}>Third slide label</h3>
                 <p>Premium blah blah blah here about how good we are</p>
             </Carousel.Caption>
             

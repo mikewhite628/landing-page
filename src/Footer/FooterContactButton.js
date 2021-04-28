@@ -15,7 +15,7 @@ function FooterContactButton({setRequestService}) {
     width > 634 ? <Button onClick={() => setRequestService(true)} className={'fixed-bottom mb-1 box-shadow'}> Request Service </Button> 
     : 
     <div fluid className={'fixed-bottom'} style={{backgroundColor: '#212529', height:'12vh', width:'100vw', color:'#fff', paddingLeft:'15px', paddingRight:'30px', fontSize:'30px'}}> 
-    <div style={{textAlign:'center', width:'100%'}}>Phone Icon | 555-555-5555</div>
+    <div style={{textAlign:'center', width:'100%', fontSize:'25px'}} >Phone Icon | 555-555-5555</div>
     <Button  variant='danger' block>CLICK TO CALL FOR LIVE RESPONSE</Button>
     </div>
     }
