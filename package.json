@@ -2,7 +2,7 @@
   "name": "new-landing-page",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mikewhite628.github.io/landing-page",
+  "homepage": "https://mikewhite628.github.io/landing-page/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.6",

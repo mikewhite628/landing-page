@@ -21,8 +21,7 @@ function HomeCarousel () {
 
                 />
             <Carousel.Caption>
-                <h3 style={{fontSize:'80px', textAlign:'center', fontFamily:'Antonio'}}>First slide label</h3>
-                <p>Premium blah blah blah here about how good we are</p>
+                <h2 style={{textAlign:'center', fontFamily:'Antonio'}}>Premium Services</h2>
             </Carousel.Caption>
             
         </Carousel.Item>
@@ -35,8 +34,7 @@ function HomeCarousel () {
                 alt='First Slide'
                 />
             <Carousel.Caption>
-                <h3 style={{fontSize:'80px', textAlign:'center', fontFamily:'Antonio'}}>Second slide label</h3>
-                <p>Premium blah blah blah here about how good we are</p>
+                <h2 style={{textAlign:'center', fontFamily:'Antonio'}}>Pet Friendly</h2>
             </Carousel.Caption>
             
         </Carousel.Item>
@@ -49,8 +47,7 @@ function HomeCarousel () {
                 alt='First Slide'
                 />
             <Carousel.Caption>
-                <h3 style={{fontSize:'80px', textAlign:'center', fontFamily:'Antonio'}}>Third slide label</h3>
-                <p>Premium blah blah blah here about how good we are</p>
+                <h2 style={{textAlign:'center', fontFamily:'Antonio'}}>Affordable Prices</h2>
             </Carousel.Caption>
             
         </Carousel.Item>
