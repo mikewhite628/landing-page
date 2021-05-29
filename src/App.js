@@ -9,7 +9,7 @@ import ContactModal from './ContactModal/ContactModal';
 import AboutUs from './AboutUs/AboutUs';
 import logo from '../src/images/Fortbend2.png'
 import {
-  HashRouter as Router,
+  BrowserRouter as Router,
   Switch,
   Route,
   Link,
