@@ -24,7 +24,7 @@ function Footer() {
                     Location
                 </Card.Title>
                 <Card.Body>
-                    Proudly serving xxxx and the greater xxxx area!
+                    Proudly serving xxxx and the greater xxxxx area!
                 </Card.Body>
             </Card>
             <Card className={'text-center mt-3 box-shadow'} style={{color:'#212529'}}>
